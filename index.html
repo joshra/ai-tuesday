@@ -446,6 +446,15 @@ h3 {
   .cta-block { flex-direction: column; }
   .cta-meta { text-align: left; }
 }
+/* ===== LAPTOP / MACBOOK AIR (769px – 1440px) ===== */
+@media (min-width: 769px) and (max-width: 1440px) {
+  :root {
+    --section-gap: clamp(48px, 6vw, 80px);
+    --page-pad:    clamp(24px, 3.5vw, 56px);
+  }
+  .grid-2 { gap: clamp(20px, 3vw, 40px); }
+  .display { font-size: clamp(48px, 7.5vw, 84px); }
+}
 </style>
 </head>
 <body>
